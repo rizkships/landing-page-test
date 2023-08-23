@@ -53,3 +53,45 @@ a {
     
     
 }
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    font-family: "Roboto";
+
+    padding: 100px 180px;
+    
+}
+
+.hero-main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.content {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.image {
+    background-color: gray;
+    color: #E5E7EB;
+    padding: 120px;
+}
+.left {
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 30px;
+}
+
+

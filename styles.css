@@ -138,3 +138,87 @@ button {
   
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-content {
+
+font-size: 36px;
+font-weight: lighter;
+color: #1f2937;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.cta-section {
+    display: flex;
+    
+    background-color: white;
+    margin: 100px 100px;
+    justify-content: center;
+    
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882f6;
+    max-width: 800px;
+    padding: 50px 100px;
+    justify-content: space-between;
+    
+
+  border-radius: 5px;
+    border-style: solid;
+    border-color: #3882f6; 
+    gap: 150px;
+}
+
+.cta-header {
+    font-weight: bold;
+}
+
+.cta-button {
+    width: fit-content;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: solid;
+    border-color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    padding: 0px 30px ;
+    border-width: thin;
+}
+
+.cta-left {
+    color: #F9FAF8;
+}
+
+.cta-subtext {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    display: flex;
+    font-size: 16px;
+}
